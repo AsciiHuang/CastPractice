@@ -105,6 +105,7 @@ public class MainActivity extends FragmentActivity {
 			} else {
 				app.Cast.setAppId(ChromecastController.APPLICATION_DEFAULT_ID);
 			}
+			
 			mediaRouteButton.setRouteSelector(app.Cast.RouteSelector);
 		}
 	};
